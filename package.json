@@ -1,0 +1,17 @@
+{
+  "name": "@my-npm7-workspace/monorepo",
+  "version": "1.0.0",
+  "description": "Sample of npm7 workspace",
+  "engines": {
+    "node": ">=15.x.x",
+    "npm": ">=7.x.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": []
+}
