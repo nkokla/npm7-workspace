@@ -1,6 +1,7 @@
 {
   "name": "@my-npm7-workspace/monorepo",
   "version": "1.0.0",
+  "private": true,
   "description": "Sample of npm7 workspace",
   "engines": {
     "node": ">=15.x.x",
@@ -13,5 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "workspaces": []
+  "workspaces": [
+    "./packages/*"
+  ]
 }
